@@ -1,0 +1,147 @@
+
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    
+}
+
+.logo {
+    flex: 1;
+    margin-left: 200px;
+}
+
+.right-links {
+    display: flex;
+    margin-right: 200px;
+    gap: 30px;
+}
+
+.content {
+    display: flex;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+}
+
+.image-placeholder {
+    display: flex;
+    height: 300px;
+    max-width: 550px;
+    border: 1px solid black;
+    background-color: grey;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-text {
+  max-width: 550px;
+}
+
+.head-text h3 {
+  font-size: 48px;
+  color: #F9FAF8;
+  max-width: 350px;
+  margin: 0px;
+}
+
+.head-text p {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+button {
+    background-color: #3882F6;
+    Padding: 5px 20px;
+}
+
+button:hover {
+    color: white;
+    background-color: lightskyblue;
+}
+
+img {
+    height: 300px;
+    width: 550px;
+}
+
+.info-container {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.info-container.info {
+    margin: auto;
+}
+
+.info-container img {
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+}
+
+.info-1 p,
+.info-2 p,
+.info-3 p, 
+.info-4 p {
+    width: 150px;
+    max-height: 100px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: #E5E7EB;
+}
+
+
+.quote-container p {
+    margin: 0px;
+    max-width: 500px;
+    font-size: 36px;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.blue-banner {
+    height: 100px;
+    width: 1000px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.text h1,
+.text p {
+    margin: 0px;
+    padding-left: 20px;
+}
+
+.button button {
+    padding-right: 20px;
+}
